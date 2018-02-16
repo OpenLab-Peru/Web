@@ -1,0 +1,29 @@
+body{
+	padding: 0;
+	margin:0;
+}
+#background{
+	background-color: #3997D3;
+	height: -webkit-fill-available;
+	width: 100%;
+	color: white;
+	justify-content: flex-end;
+}
+h1{
+	margin:0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+}
+img{
+	height: 200px;
+}
+.contenido{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
